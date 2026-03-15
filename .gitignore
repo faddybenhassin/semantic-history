@@ -1,0 +1,31 @@
+
+
+# IDEs
+.vscode/
+.idea/
+
+# Go
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+
+# Runtime / generated
+qdrant_storage/**/wal/
+qdrant_storage/**/segments/
+*.db
+*.sqlite3
+*.log
+*.tmp
+
+# Env
+.env
+.env.local
