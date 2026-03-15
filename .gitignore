@@ -1,4 +1,6 @@
-
+# Windows/macOS
+*.DS_Store
+Thumbs.db
 
 # IDEs
 .vscode/
@@ -19,8 +21,8 @@ venv/
 .venv/
 
 # Runtime / generated
-qdrant_storage
-qdrant_storage
+qdrant_storage/**/wal/
+qdrant_storage/**/segments/
 *.db
 *.sqlite3
 *.log

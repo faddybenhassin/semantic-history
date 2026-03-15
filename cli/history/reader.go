@@ -11,7 +11,7 @@ func GetPath() (string, error) {
 	if err != nil {
 		return "", err
 	}
-	return filepath.Join(dirname, ".bash_history "), nil
+	return filepath.Join(dirname, ".bash_history"), nil
 }
 
 func ReadLines(path string) ([]string, error) {
