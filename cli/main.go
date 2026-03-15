@@ -48,6 +48,8 @@ func main() {
 		// fmt.Printf("[%0.2f] %s\n", r.Score, r.Command)
 	}
 	if res != nil && res.Score > threshold {
-		fmt.Println(res.Command)
+		fmt.Println("best match found: ", res.Command)
+	} else {
+		fmt.Println("match not found")
 	}
 }
