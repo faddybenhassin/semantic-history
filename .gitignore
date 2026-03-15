@@ -19,8 +19,8 @@ venv/
 .venv/
 
 # Runtime / generated
-qdrant_storage/**/wal/
-qdrant_storage/**/segments/
+qdrant_storage
+qdrant_storage
 *.db
 *.sqlite3
 *.log
